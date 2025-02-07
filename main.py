@@ -10,19 +10,19 @@ black = (0, 0, 0)
 screen = pygame.display.set_mode((800, 600))
 pygame.display.set_caption("Jack Runner")
 
-bg = pygame.image.load("Python-Projects/Game/Images/bg.jpeg")
+bg = pygame.image.load("Jack_Runner/Images/bg.jpeg")
 bg = pygame.transform.scale(bg, (800, 600))
 
-rock_image = pygame.image.load("Python-Projects/Game/Images/rock.png")
+rock_image = pygame.image.load("Jack_Runner/Images/rock.png")
 
-button = pygame.image.load("Python-Projects/Game/Images/Button.png")
+button = pygame.image.load("Jack_Runner/Images/Button.png")
 button = pygame.transform.scale(button, (200, 60))
 
 run_images = [
-    pygame.image.load("Python-Projects/Game/Images/character.png"),
-    pygame.image.load("Python-Projects/Game/Images/character1.png"),
-    pygame.image.load("Python-Projects/Game/Images/character2.png"),
-    pygame.image.load("Python-Projects/Game/Images/character3.png"),
+    pygame.image.load("Jack_Runner/Images/character.png"),
+    pygame.image.load("Jack_Runner/Images/character1.png"),
+    pygame.image.load("Jack_Runner/Images/character2.png"),
+    pygame.image.load("Jack_Runner/Images/character3.png"),
 ]
 
 character_width, character_height = run_images[0].get_size()
