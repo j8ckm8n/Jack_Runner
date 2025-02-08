@@ -161,6 +161,10 @@ while running:
             char_speed = 17
         if score == 40:
             char_speed = 19
+        if score == 50:
+            char_speed = 25
+        if score == 60:
+            char_speed = 30
 
         screen.blit(run_images[current_frame], (character_x, character_y))
 
