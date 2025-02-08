@@ -40,6 +40,7 @@ current_frame = 0
 frame_delay = 8
 frame_counter = 0
 game_state = "playing"
+obstacle_timer = 0
 
 obstacles = []
 
@@ -49,7 +50,6 @@ class Obstacle:
         self.passed = passed
 
 clock = pygame.time.Clock()
-
 
 obstacle_delay = 120
 
