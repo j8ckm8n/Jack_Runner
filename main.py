@@ -50,7 +50,7 @@ class Obstacle:
 
 clock = pygame.time.Clock()
 
-obstacle_timer = 0
+
 obstacle_delay = 120
 
 def create_obstacle():
